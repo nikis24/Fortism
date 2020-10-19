@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="730dp"
+        android:background="@drawable/pb2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_send"
+                android:layout_width="241dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/aladin"
+                android:gravity="center_horizontal"
+                android:text="@string/forts_of_maharashtra_4_nights_5_days"
+                android:textAlignment="center"
+                android:textColor="#B10641"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042" />
+
+            <TextView
+                android:id="@+id/day1"
+                android:layout_width="wrap_content"
+                android:layout_height="108dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="center"
+                android:text="@string/day_1_mumbai_distance_km_drive_time_hr_day_highlights_gate_way_of_india_marine_drive_and_juhu_beach"
+                android:textAlignment="center"
+                android:textColor="#881911"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.248" />
+
+
+            <TextView
+                android:id="@+id/k1"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center_horizontal"
+                android:text="@string/k1"
+                android:textAlignment="center"
+                android:textColor="#464745"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042" />
+
+            <TextView
+                android:id="@+id/day2"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/day_2_mumbai_pune_distance_180_km_drive_time_4_hr_day_highlights_sinhagarh_fort"
+
+                android:textAlignment="center"
+                android:textColor="#881911"
+                android:textSize="20sp"
+                android:fontFamily="@font/berkshire_swash"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.436" />
+
+            <TextView
+                android:id="@+id/k2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center_horizontal"
+                android:text="@string/k1"
+                android:textAlignment="center"
+                android:textColor="#464745"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/day3"
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="center_horizontal"
+                android:text="@string/day_3_pune_murud_distance_300_km_drive_time_8_hr_day_highlights_raigad_fort"
+                android:textAlignment="center"
+                android:textColor="#881911"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.658" />
+
+            <TextView
+                android:id="@+id/k3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center_horizontal"
+                android:text="@string/k1"
+                android:textAlignment="center"
+                android:textColor="#464745"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/day4"
+                android:layout_width="wrap_content"
+                android:layout_height="109dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/day_4_murud_distance_km_drive_time_hr_day_highlights_murud_janjira_fort_karnala_fort_kashid_beach"
+                android:textAlignment="center"
+                android:fontFamily="@font/berkshire_swash"
+                android:textColor="#881911"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.851" />
+
+            <TextView
+                android:id="@+id/k4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center_horizontal"
+                android:text="@string/k1"
+                android:textAlignment="center"
+                android:textColor="#464745"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/day5"
+                android:layout_width="339dp"
+                android:layout_height="167dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/day_5_murud_mumbai_distance_150_km_drive_time_4_hr_after_breakfast_check_out_from_hotel_and_transfer_to_mumbai_railway_station_or_mumbai_airport_for_your_onward_journey"
+                android:textAlignment="center"
+                android:fontFamily="@font/berkshire_swash"
+                android:textColor="#881911"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.851" />
+
+            <TextView
+                android:id="@+id/k5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center_horizontal"
+                android:text="@string/k1"
+                android:textAlignment="center"
+                android:textColor="#464745"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/so"
+                android:layout_width="333dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/coiny"
+                android:gravity="center_horizontal"
+                android:text="@string/so_are_you_ready_to_go"
+
+                android:textAlignment="center"
+                android:textColor="#084C55"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.851" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

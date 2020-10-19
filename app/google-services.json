@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "732872457734",
+    "firebase_url": "https://fortism-a492d.firebaseio.com",
+    "project_id": "fortism-a492d",
+    "storage_bucket": "fortism-a492d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732872457734:android:76ad5d05682d226605cd87",
+        "android_client_info": {
+          "package_name": "com.example.fortism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732872457734-f8dcpn6fib784k8em7u3sutintgpgvr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fortism",
+            "certificate_hash": "dc51645ad9d8dec8c495317d369527bced24116a"
+          }
+        },
+        {
+          "client_id": "732872457734-cqkkovkv4bno5mhg33da88hsj1bgkevp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV-KfNAV2yc_HPtcMevD5zhCwcEBacfjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732872457734-cqkkovkv4bno5mhg33da88hsj1bgkevp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
